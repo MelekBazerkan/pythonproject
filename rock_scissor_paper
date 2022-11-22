@@ -1,0 +1,10 @@
+import random
+game=['r','s','p']
+computer=random.choice(game)
+you=input('choice rock as r , scissor as s or paper as p : ')
+if (you =='r' and  computer == 's')  or (you =='p' and computer == 'r') or (you =='p' and computer == 'r') : 
+   print('You win')
+elif you==computer :
+  print ('No one win ')
+else :
+  print('Computer win')
